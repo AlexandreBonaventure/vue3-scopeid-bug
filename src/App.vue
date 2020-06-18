@@ -8,14 +8,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import FunctionalComp from './components/FunctionalComp.vue'
 import ComponentWithSlot from './components/ComponentWithSlot.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     ComponentWithSlot,
     FunctionalComp
   }
